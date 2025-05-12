@@ -1,0 +1,34 @@
+.update-booking {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #BB8493;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #704264;
+  }
+  

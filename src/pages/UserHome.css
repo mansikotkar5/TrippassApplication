@@ -1,0 +1,50 @@
+/* UserHome.css */
+
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background: #49243E;
+  color: white;
+  font-weight: bold;
+}
+
+.loading-text, .error-text, .no-trips {
+  font-size: 18px;
+  margin-top: 20px;
+  color: red;
+}
+
+.button {
+  background: #BB8493;
+}
+
+.button:hover {
+  background: #704264;
+}
